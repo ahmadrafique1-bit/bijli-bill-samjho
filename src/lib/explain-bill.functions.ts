@@ -44,7 +44,7 @@ export const explainBill = createServerFn({ method: "POST" })
       throw new Error("GEMINI_API_KEY set nahi hai. Admin se rabta karein.");
     }
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${apiKey}`;
 
     const body = {
       systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
