@@ -13,7 +13,7 @@
 
 </div>
 
-## 🚀 **Live App:** [Open Bijli Bill Samjho](https://bijli-bill-samjho.vercel.app/)
+## 🚀 **Live App :** [Open Bijli Bill Samjho](https://bijli-bill-samjho.vercel.app/)
 
 </div>
 
